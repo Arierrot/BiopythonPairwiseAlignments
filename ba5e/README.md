@@ -4,13 +4,13 @@ Este script encuentra el alineamiento global con la puntuación más alta entre 
 
 ## Requisitos
 Instala las dependencias necesarias con:
-
+```
 pip install -r requirements.txt
-
+```
 ## Uso
-
+```
 python ba5e.py entrada.fasta salida.fasta
-
+```
 Donde:
 - `entrada.fasta` es el archivo con las secuencias en formato FASTA.
 - `salida.fasta` es el archivo donde se guardarán los alineamientos.
