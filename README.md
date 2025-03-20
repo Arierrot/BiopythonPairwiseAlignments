@@ -19,21 +19,21 @@ Cada uno de estos problemas se ha implementado en un script independiente.
 ## Requisitos
 
 Antes de ejecutar los scripts, es necesario instalar las dependencias. Se pueden instalar ejecutando:
-
+```
 pip install -r requirements.txt
-
+```
 ## Uso
 
 Cada script toma como entrada un archivo en formato **FASTA** con varias secuencias. La primera secuencia se usa como **target** y las siguientes como **query**.
 
 Para ejecutar un script, utiliza el siguiente comando:
-
+```
 python nombre_del_script.py entrada.fasta salida.fasta
-
+```
 Por ejemplo, para ejecutar el alineamiento global con `ba5e.py`:
-
+```
 python ba5e.py entrada.fasta salida.fasta
-
+```
 Donde:
 - `entrada.fasta` es el archivo que contiene las secuencias en formato FASTA.
 - `salida.fasta` es el archivo donde se guardarán los alineamientos resultantes.
