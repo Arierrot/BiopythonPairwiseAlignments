@@ -4,13 +4,13 @@ Este script realiza alineamientos globales entre una secuencia objetivo y varias
 
 ## Requisitos
 Instala las dependencias necesarias con:
-
+```
 pip install -r requirements.txt
-
+```
 ## Uso
-
+```
 python ba5j.py entrada.fasta salida.fasta
-
+```
 Donde:
 - `entrada.fasta` es el archivo con las secuencias en formato FASTA.
 - `salida.fasta` es el archivo donde se guardarán los alineamientos.
